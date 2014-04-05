@@ -37,3 +37,8 @@ Add local to remote
 > git remote add origin  git@github.com:jayalalk/JK.git  //ssh link ,  origin is the remote repo  name
 > git push orgin master //master brnach
 
+Install windows GUI
+> download GUI for windows
+
+
+
