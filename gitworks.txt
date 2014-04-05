@@ -1,0 +1,44 @@
+1:
+git config --global user.name "jayalalk"
+git config --global user.email "myemail"
+
+2:
+
+git init // on the folder
+
+git status
+git add .  //everything
+
+git rm --cached readme.txt  // removed the just added file , but not commited
+
+git commit -m "initial commit"
+
+git log
+
+git add .  // if you do any change , staging area is cleaned ..so need to ad again
+
+git diff // diff with local , before add to staging area  ( mean before git add )
+
+git diff --cached  // show diff in staging area 
+
+git log --oneline //show commits messages
+
+git commit -a -m "added and commited  all files in single commad"
+
+git status -s  // show you what is modified
+
+Create SSH:
+>ssh-keygen -t rsa -C "myemail"
+-copy public from .ssh folder of your home directory and add SSH Key to git hub
+-verify your auth in bash window,  
+>ssh -T git@github.com
+
+Add local to remote
+> git remote add origin  git@github.com:jayalalk/JK.git  //ssh link ,  origin is the remote repo  name
+> git push orgin master //master brnach
+
+Install windows GUI
+> download GUI for windows
+
+
+
