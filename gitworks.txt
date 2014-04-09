@@ -30,9 +30,9 @@ git status -s  // show you what is modified
 Create SSH:
 >ssh-keygen -t rsa -C "myemail"
 -copy public from .ssh folder of your home directory and add SSH Key to git hub
--verify your auth in bash window,  
+-verify your auth in bash window, --jayalalk 
 >ssh -T git@github.com
-
+jayalalk tama pw
 Add local to remote
 > git remote add origin  git@github.com:jayalalk/JK.git  //ssh link ,  origin is the remote repo  name
 > git push orgin master //master brnach
