@@ -1,3 +1,6 @@
+0: cloing git to local
+git clone https://github.com/jayalalk/gittest.git
+
 1:
 git config --global user.name "jayalalk"
 git config --global user.email "myemail"
