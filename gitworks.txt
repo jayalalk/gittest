@@ -1,5 +1,5 @@
 0: cloing git to local
-git clone https://github.com/jayalalk/gittest.git
+git clone https://github.com/jayalalk/gittest.git <foldername to use than default>
 
 1:
 git config --global user.name "jayalalk"
